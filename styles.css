@@ -35,6 +35,12 @@ h3 {
     text-align: center;
 }
 
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 50px;
+}
 #about_img {
     margin-bottom: 25px;
 }
@@ -55,18 +61,59 @@ h3 {
 .snt_container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: flex-center;
+    justify-content: space-evenly;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .snt_item {
     background-color: rgb(241,241,241);
     padding: 5px;
-    width: 190px;
+    margin: 10px;
+    border-radius: 5px;
+    width:200px;
+    
+}
+
+.projects_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-cemter;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.project_container {
+    background-color: white;
     border-radius: 5px;
 }
 
+.project_item_top {
+    width: 200px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: darkgray;
+    padding: 5px;
+    text-align: center;
+}
+.project_item_bottom {
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.project_item_text {
+    padding-bottom: 15px;
+}
+.keyword {
+    background-color: lightblue;
+    border-radius: 10px;
+    color: darkblue;
+    padding: 3px;
+    margin: 3px;
+}
 #logo {
     margin-left: 5px;
 }
@@ -102,4 +149,16 @@ h3 {
 #about {
     background-color: rgb(241, 241, 241);
     /*border: 5px solid rgb(241, 241, 241);*/
+}
+
+#projects {
+    background-color: rgb(241, 241, 241);
+    /*border: 5px solid rgb(241, 241, 241);*/
+}
+
+@media screen and (max-width: 600px) {
+    .snt_container {
+        width: 400px;
+        
+    }
 }
