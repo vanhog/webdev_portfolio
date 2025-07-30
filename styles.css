@@ -15,13 +15,13 @@ ul {
     margin-right: 5px;
 }
 
-header{
-    background-color: white;
-    width: 100vw;
+header {
+    padding: 35px;
+    background-color: darkblue;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between; /*main axis*/
-
 }
 
 h1 {
@@ -46,6 +46,7 @@ footer {
 }
 #about_img {
     margin-bottom: 25px;
+    border-radius: 5px;;
 }
 .chapter {
     text-align: center;
@@ -98,31 +99,41 @@ footer {
 .project_container {
     background-color: white;
     border-radius: 5px;
+    width: 200px;
 }
 
 .project_item_top {
-    width: 200px;
     border-radius: 5px 5px 0px 0px;
     background-color: darkgray;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
 }
 .project_item_bottom {
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    padding: 5px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
-.project_item_text {
-    padding-bottom: 15px;
+
+
+.project_item_bottom h3 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.project_item_bottom p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+
 }
 .keyword {
-    background-color: lightblue;
+    background-color: rgb(189, 226, 238);
     border-radius: 10px;
+    font-size: 0.7em;
     color: darkblue;
     padding: 3px;
-    margin: 3px;
+   
 }
 #logo {
     margin-left: 5px;
@@ -132,6 +143,7 @@ footer {
 .about_container {
     display: flex;
     align-items: flex-start;
+    margin: auto 35px;
 }
 
 .about_item {
@@ -142,11 +154,21 @@ footer {
 .faq{
     margin-left: 20%;
     margin-right:20%;
+    margin-bottom: 20px;
     background-color: rgb(241,241,241);
     padding: 10px;
     border-radius: 5px;
 }
 
+.faq summary {
+    font-weight: bold;
+}
+.faq p {
+    padding: 10px;
+    font-size: 0.95em;
+    color: #777777;
+
+}
 #getintouch {
     background-color: rgb(241, 241, 241);
 }
