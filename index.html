@@ -25,10 +25,10 @@
     <section id="hero">
       <img
         id="hero_img"
-        alt="profile photo"
+        alt="Profile Photo Dieter Hoogestraat"
         width="100"
         hight="100"
-        src="https://thumbs.dreamstime.com/b/d-cute-icon-avatar-young-friendly-woman-female-call-center-agent-headset-smiling-cartoon-operator-headphones-mic-working-356315090.jpg"
+        src="assets/avatarhog.png"
       />
       <h1>Dieter Hoogestraat</h1>
       <h2>Geospatial Web Developer</h2>
@@ -43,8 +43,8 @@
           class="about_item"
           id="about_img"
           width="200"
-          src="https://thumbs.dreamstime.com/b/d-cute-icon-avatar-young-friendly-woman-female-call-center-agent-headset-smiling-cartoon-operator-headphones-mic-working-356315090.jpg"
-          alt="Flowers"
+          src="assets/avatarhog.png"
+          alt="Profile Photo Dieter Hoogestraat"
         />
         <span class="about_item">
           <b>Hi, my name is Dieter.</b> <br /><br />I’ve been living in Kiel for
@@ -67,25 +67,55 @@
       <div class="snt_container">
         <div class="snt_item">
           <h3>Python</h3>
+          <p>
+            I am passionate about writing Python scripts and programs to
+            analyze, explore and process large-scale data in a scientific
+            environment. Python is the programming language I'm currently most
+            fluent in.
+          </p>
         </div>
         <div class="snt_item">
           <h3>HTML & CSS</h3>
+          <p>
+            I use HTML5 and CSS5 to build clean, responsive web pages. I feel
+            comfortable with turning design concepts into functional layouts.
+          </p>
         </div>
         <div class="snt_item">
           <h3>JavaScript & PHP</h3>
+          <p>
+            As an active participant in the OpenCampus WebDev program, I work
+            with JavaScript and expand my PHP skills.
+          </p>
         </div>
       </div>
 
       <div class="snt_container">
         <div class="snt_item">
           <h3>(Radar-)Remote Sensing & GIS</h3>
-          <p></p>
+          <p>
+            My focus is on analyzing large volumes of time series data from
+            radar remote sensing and presenting both the data and results using
+            GIS applications.
+          </p>
         </div>
         <div class="snt_item">
           <h3>Geophysics</h3>
+          <p>
+            I hold a master’s degree in geophysics, the science of measuring
+            physical properties to understand the Earth’s dynamics from its
+            surface to its deep interior. My expertise lies in satellite
+            geophysics and hydroacoustics.”
+          </p>
         </div>
         <div class="snt_item">
           <h3>Geosciences</h3>
+          <p>
+            As a geoscientist with a bachelor’s degree, I focus mainly on
+            petrology and near-surface geophysics, combining physics and
+            geoscience to gain a deeper understanding of the geological
+            processes that shape our daily lives.
+          </p>
         </div>
       </div>
     </section>
@@ -135,6 +165,63 @@
       </details>
     </section>
 
+    <!--Get in Touch--------------------------------->
+    <section id="getintouch" class="chapter_box">
+      <h2 class="chapter">Get in Touch</h2>
+      <div class="git_container">
+        <div class="git_item">
+          <form class="git_formcontainer">
+            <div class="git_formitem">
+              <label for="fullName"
+                >Full Name <span class="mandatory">*</span></label
+              ><br />
+              <input type="text" class="inputelement" name="name" required />
+            </div>
+
+            <div class="git_formitem">
+              <label for="eMail"
+                >Email Address <span class="mandatory">*</span> </label
+              ><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="inputelement"
+                placeholder="Don't forget the @"
+                required
+              />
+            </div>
+
+            <div class="git_formitem">
+              <label for="subject">Subject</label><br />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                class="inputelement"
+              />
+            </div>
+
+            <div class="git_formitem">
+              <label for="Message"
+                >Message <span class="mandatory">*</span></label
+              ><br />
+              <textarea
+                name="textarea"
+                id="textarea"
+                placeholder="Enter your message, please."
+                class="inputelement"
+                required
+              ></textarea>
+            </div>
+
+            <div class="git_formitem">
+              <button id="git_submitbutton">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
     <footer>
       <p>Footertext</p>
     </footer>
