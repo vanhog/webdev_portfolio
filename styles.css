@@ -6,6 +6,7 @@
 body {
         font-family: 'Helvetica';
 
+
 }
 ul {
     list-style: none;
@@ -55,10 +56,39 @@ footer {
 }
 
 .chapter_box {
-    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
+
+.light {
+    background-color: white ;
+    
+    /*border: 5px solid rgb(241, 241, 241);*/
+}
+.light h2 {
+    color: #2c3338;
+}
+.light p {
+    color: darkgray;
+}
+
+.dark {
+    background-color: white;
+    background-image: url('assets/blue_background.jpg');
+    background-size: cover;
+}
+.dark h1 {
+    color: #1d2023;
+}
+.dark h2 {
+    color: white;
+}
+.dark p {
+    color: white;
+}
+
+
 .snt_container {
     display: flex;
     flex-direction: row;
@@ -78,7 +108,7 @@ footer {
 }
 
 .snt_item h3 {
-    color: #555555;
+    color: black;
     margin-bottom: 10px;
 }
 .snt_item p {
@@ -112,6 +142,7 @@ footer {
     background-color: white;
     border-radius: 0px 0px 5px 5px;
     padding: 15px;
+    text-align: left;
 }
 
 
@@ -119,12 +150,14 @@ footer {
 .project_item_bottom h3 {
     font-size: 0.9em;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .project_item_bottom p {
     font-size: 0.9em;
     margin-bottom: 15px;
+    color:#2c3338;
+
 
 }
 .keyword {
@@ -133,6 +166,7 @@ footer {
     font-size: 0.7em;
     color: darkblue;
     padding: 3px;
+    text-align: left;
    
 }
 #logo {
@@ -144,11 +178,12 @@ footer {
     display: flex;
     align-items: flex-start;
     margin: auto 35px;
+
 }
 
 .about_item {
     margin-right: 15px;
-    
+    text-align: left;
 }
 
 .faq{
@@ -158,6 +193,7 @@ footer {
     background-color: rgb(241,241,241);
     padding: 10px;
     border-radius: 5px;
+    text-align: left;
 }
 
 .faq summary {
@@ -232,19 +268,11 @@ footer {
     color: red;
     font-weight: bold;
 }
-#hero {
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 25px;
 
-}
 #hero_img{
     border-radius: 50%;
 }
-#about {
-    background-color: rgb(241, 241, 241);
-    /*border: 5px solid rgb(241, 241, 241);*/
-}
+
 
 
 #projects {

@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <span id="logo">DHH</span>
+      <span id="logo"><b>D.H.H</b></span>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -22,7 +22,7 @@
     </header>
     <!--Hero-------------------------------------------------------->
 
-    <section id="hero">
+    <section id="hero" class="chapter_box light">
       <img
         id="hero_img"
         alt="Profile Photo Dieter Hoogestraat"
@@ -36,7 +36,7 @@
     </section>
 
     <!--About------------------------------------------------------->
-    <section id="about" class="chapter_box">
+    <section id="about" class="chapter_box dark">
       <h2 class="chapter">About me</h2>
       <div class="about_container">
         <img
@@ -47,21 +47,25 @@
           alt="Profile Photo Dieter Hoogestraat"
         />
         <span class="about_item">
-          <b>Hi, my name is Dieter.</b> <br /><br />I’ve been living in Kiel for
-          14 years. After graduating in geosciences (B.Sc.) I recently completed
-          my master’s degree in geophysics. During the last few semesters, I
-          discovered my passion for software development—especially web
-          development. I find it exciting to build things that connect across
-          layers and systems, using net-connected resources and ideally doing it
-          all from a remote setup. Python is the language I’m currently most
-          fluent in. On the personal side, I’m a single father (my wife is
-          working in Brazil :brazil: ) and have two amazing kids at home.
+          <p><b>Hi, my name is Dieter.</b></p>
+          <br />
+          <p>
+            I’ve been living in Kiel for 14 years. After graduating in
+            geosciences (B.Sc.) I recently completed my master’s degree in
+            geophysics (M.Sc.). During the last few semesters, I discovered my
+            passion for software development — especially web development. I
+            find it exciting to build things that connect across layers and
+            systems, using net-connected resources and ideally doing it all from
+            a remote setup. Python is the language I’m currently most fluent in.
+            On the personal side, I’m a single father (my wife is working
+            abroard) and have two amazing kids at home.
+          </p>
         </span>
       </div>
     </section>
 
     <!--S&T--------------------------------------------------------->
-    <section id="snt" class="chapter_box">
+    <section id="snt" class="chapter_box light">
       <h2 class="chapter">Skills and Technologies</h2>
 
       <div class="snt_container">
@@ -121,7 +125,7 @@
     </section>
 
     <!--Projects---------------------------------------------------->
-    <section id="projects" class="chapter_box">
+    <section id="projects" class="chapter_box dark">
       <h2 class="chapter">My Projects</h2>
 
       <div class="projects_container">
@@ -146,7 +150,7 @@
         <div class="project_container">
           <div class="project_item_top"><h3>image</h3></div>
           <div class="project_item_bottom">
-            <h3>BBD-Analyzer</h3>
+            <h3>TSGeoDataFrame</h3>
             <p>text</p>
 
             <span class="keyword">CSS</span>
@@ -165,7 +169,7 @@
     </section>
 
     <!--FAQ--------------------------------------------------------->
-    <section id="faq" class="chapter_box">
+    <section id="faq" class="chapter_box light">
       <h2 class="chapter">Frequently Asked Questiones</h2>
       <details class="faq">
         <summary>When will you be able to embark?</summary>
@@ -197,6 +201,20 @@
           sight of stakeholders’ needs and values.
         </p>
       </details>
+      <details class="faq">
+        <summary>Where can I see some of your scientific work?</summary>
+        <p>
+          Take a look at these two posters about detecting (very) slow ground
+          motion in a tectonically stable region. They reflect an important
+          field of my scientific interests.
+        </p>
+      </details>
+      <details class="faq">
+        <summary>
+          Would you prefer a full-time position or part-time employment?
+        </summary>
+        <p>I'm looking for part-time work.</p>
+      </details>
     </section>
 
     <!--Get in Touch--------------------------------->
@@ -204,7 +222,11 @@
       <h2 class="chapter">Get in Touch</h2>
       <div class="git_container">
         <div class="git_item">
-          <form class="git_formcontainer">
+          <form
+            class="git_formcontainer"
+            method="POST"
+            action="http://www.hoogestraat.com"
+          >
             <div class="git_formitem">
               <label for="fullName"
                 >Full Name <span class="mandatory">*</span></label
