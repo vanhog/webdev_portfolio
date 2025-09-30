@@ -29,7 +29,7 @@ ul {
 }
 
 header {
-    padding: 35px;
+    padding: 2cqb;
     background-color: darkblue;
     color: white;
     display: flex;
@@ -37,9 +37,15 @@ header {
     justify-content: space-between; /*main axis*/
 }
 
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
 h1 {
     font-size: 36px;
     font-weight: bold;
+    padding-left: 5%;
+    padding-right:5%;
     margin-bottom: 25px;
 }
 
@@ -50,6 +56,8 @@ h3 {
 
 h2 {
     margin: 30px auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 footer {
@@ -85,13 +93,19 @@ footer {
     color: darkgray;
 }
 
+.dark#hero{
+        background-image: url('assets/13169.jpg');
+        background-size: cover;
+
+
+}
 .dark {
     background-color: white;
     background-image: url('assets/blue_background.jpg');
     background-size: cover;
 }
 .dark h1 {
-    color: #1d2023;
+    color: white;
 }
 .dark h2 {
     color: white;
@@ -141,6 +155,7 @@ footer {
 .project_container {
     background-color: white;
     border-radius: 5px;
+    margin: 5px auto;
     width: 200px;
 }
 
@@ -188,12 +203,13 @@ footer {
     display: flex;
     align-items: flex-start;
     margin: auto 35px;
+    flex-wrap: wrap;
 
 }
 
 .about_item {
     margin-right: 15px;
-    text-align: left;
+    text-align:justify;
 }
 
 .faq{
@@ -252,6 +268,22 @@ footer {
     font-weight: bold;
 }
 
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-column {
+    font-size: 0.75em;
+}
+.footer-column#fc3 {
+    text-align: right;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.75em;
+    margin: 5%;
+}
 #logo {
     font-weight: bold;
     font-size: 30px;
@@ -260,11 +292,16 @@ footer {
     border-radius: 50%;
 }
 
+#hero p{
+    padding-left: 3%;
+    padding-right:3%;
+}
+
 #logo {
     margin-left: 5px;
 }
 #git {
-    background-color: darkblue;;
+    background-color: rgb(241, 241, 241));
 }
 #git label {
     margin-left: 3%;
@@ -301,7 +338,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     .snt_container {
-        width: 400px;
+        width: 300px;
         
     }
 }
