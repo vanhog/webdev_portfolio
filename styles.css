@@ -20,6 +20,8 @@ body {
 
 
 }
+
+
 ul {
     list-style: none;
     display: flex;
@@ -269,16 +271,30 @@ footer {
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.footer-column {
+.footer-item {
     font-size: 0.75em;
+    margin-bottom: 5px;
+    
 }
 .footer-column#fc3 {
     text-align: right;
 }
 
+.impressum {
+    font-size: 12px;
+    padding-bottom: 5%;
+}
+
+.impressum p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5px;
+
+}
 .copyright {
     text-align: center;
     font-size: 0.75em;
