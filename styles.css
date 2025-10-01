@@ -354,9 +354,3 @@ footer {
     /*border: 5px solid rgb(241, 241, 241);*/
 }
 
-@media screen and (max-width: 600px) {
-    .snt_container {
-        width: 300px;
-        
-    }
-}
