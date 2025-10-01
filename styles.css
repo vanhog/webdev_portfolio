@@ -200,18 +200,20 @@ footer {
 }
 
 
-
+ 
 .about_container {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-center;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: auto 35px;
     flex-wrap: wrap;
-
 }
 
 .about_item {
     margin-right: 15px;
     text-align:justify;
+    max-width: 900px;
 }
 
 .faq{
