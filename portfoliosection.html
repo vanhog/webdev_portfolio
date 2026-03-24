@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./portfoliotw.css" />
+  </head>
+  <body class="bg-amber-300">
+    <div class="text-6xl font-bold py-6 px-12">Portfolio</div>
+    <div class="grid grid-cols-2">
+      <div class="px-[30%]">
+        <ul class="text-4xl">
+          <li class="py-6 cursor-crosshair" id="portfolio01text">project 1</li>
+          <li class="py-6 cursor-crosshair" id="portfolio02text">project 2</li>
+          <li class="py-6 cursor-crosshair" id="portfolio03text">project 3</li>
+          <li class="py-6">project 4</li>
+          <li class="py-6">project 5</li>
+          <li class="py-6">project 6</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <img
+              id="portfolio01"
+              src="https://picsum.photos/400/600?random&t=' + new Date().getTime() +'"
+              alt=""
+              class="hidden"
+            />
+          </li>
+          <li>
+            <img
+              id="portfolio02"
+              src="https://picsum.photos/400/600?random&6='"
+              alt=""
+              class="hidden"
+            />
+          </li>
+          <li>
+            <img
+              id="portfolio03"
+              src="https://picsum.photos/400/600?random"
+              alt=""
+              class="hidden"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./portfolio.js"></script>
+  </body>
+</html>
